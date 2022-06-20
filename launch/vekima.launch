@@ -1,0 +1,7 @@
+<launch>
+
+	<node name = "PCA9685" pkg = "vekima" type= "PCA9685.py" output= "screen"/>
+	<node name = "CPG"     pkg = "vekima" type= "cpg.py"     output= "screen"/> 
+        <node name = "flight"  pkg = "vekima" type= "flight.py"  output= "screen"/>
+	 
+</launch>
